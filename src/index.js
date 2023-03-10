@@ -10,16 +10,6 @@ import "firebase/firestore";
 import "firebase/auth";
 import "firebase/storage";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCTlxXgLK6ehXyFeR4VwuQQHRMCbv4FXZ8",
-  authDomain: "guestbook-f6b49.firebaseapp.com",
-  projectId: "guestbook-f6b49",
-  storageBucket: "guestbook-f6b49.appspot.com",
-  messagingSenderId: "484229230563",
-  appId: "1:484229230563:web:7306e9a8d5a76bcb5bfad6",
-  measurementId: "G-QND7MF83H7",
-};
-
 firebase.initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
